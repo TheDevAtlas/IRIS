@@ -1,5 +1,4 @@
 # IRIS - A Stock, Crypto, Net Worth Prediction
-Stocks, Crypto, Currency
 
 Copyright 2021, Jacob McGowan, All rights reserved. Software not for public use or financial use.
 
