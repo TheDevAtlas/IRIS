@@ -1,6 +1,9 @@
 # Jacob McGowan 2021 #
 # Control Script For Net #
 
+import botManager as bm
+bm.trainBot()
+
 # Imports For Data Display And Manipulation
 import datetime as dt # The Date And Time
 import numpy as np # Basic Functions
