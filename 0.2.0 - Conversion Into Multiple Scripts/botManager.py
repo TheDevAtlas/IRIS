@@ -15,17 +15,22 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 
-def createBot():
-    print("Create Bot")
-
-def loadBot():
-    print("Load Weights Into Bot")
+def createNewBot():
+    print("New Bot")
+    # Create Bot From Atrabutes Given From botMain
+    # Save The Bot With A New Name To A File
 
 def trainBot():
     print("Train Bot")
+    # Load Bot Name Given From botMain
+    # Setup The Training Numbers Given From botMain
+    # Run The Training
+    # Save The Bot
 
-def saveBot():
-    print("Save Bot")
-
-def predictBot():
-    print("Go Predict")
+def runBot():
+    print("Run Bot")
+    # Load Bot Name Given From botMain
+    # Setup The Training Numbers Given From botMain
+    # Run The Prediction
+    # Output Data To Text File
+    # Output Data To A Graph

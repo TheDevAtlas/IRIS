@@ -19,31 +19,27 @@ from tensorflow.keras.layers import Dense, Dropout, LSTM
 def createABot():
     print("Create")
     # Ask For All Of Its Atrabutes
-    # Create Basic Bot Outline
-    # First Training (Needs To Be Short)
-    # Save The Bot With A Name
+    # Call The createNewBot Function From botManager
 
 # Function For Training A Bot #
 def trainABot():
     print("Train")
-    # Ask What Bot To Train (Print All Of The Bots Saved)
-    # Recreate Bot In Code
-    # Input Its Saved Settings (Load Old Training Into Bot Outline)
-    # Ask What Company To Train Bot On
-    # Ask What Dates To Train Bot On (Show Current Date And Date Company Openened)
-    # Start A New Training To Modify Saved Settings
-    # Save The Bot With New Settings Under Same Name
+    # Ask For The Bot Name
+    # Ask For The Company ID
+    # Ask For The Start Date
+    # Ask For The End Date
+    # Ask For Settings Of Training
+    # Call The trainBot Function From botManager
 
 # Function For Running A Bot #
 def runABot():
     print("Run")
-    # Ask What Bot To Run (Print All Of The Bots Saved)
-    # Recreate Bot In Code
-    # Input Its Saved Settings (Load Old Training Into Bot Outline)
-    # Ask What Company To Perform Prediction On
-    # Ask What Dates To Use In Prediction
-    # Ask How Far Into Future To Predict
-    # Output Predictions In Graph And Text File And In Console
+    # Ask For The Bot Name
+    # Ask For The Company ID
+    # Ask For How Many Days Into The Past
+    # Ask For End Date
+    # Ask For How Far Into Future
+    # Call The runBot Function From botManager
 
 # Very Basic Menu For Navigation (Going To Be Replaced By Web Or Other Input) #
 while True:
