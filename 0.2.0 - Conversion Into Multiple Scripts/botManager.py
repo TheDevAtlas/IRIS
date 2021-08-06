@@ -15,3 +15,17 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 
+def createBot():
+    print("Create Bot")
+
+def loadBot():
+    print("Load Weights Into Bot")
+
+def trainBot():
+    print("Train Bot")
+
+def saveBot():
+    print("Save Bot")
+
+def predictBot():
+    print("Go Predict")
