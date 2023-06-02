@@ -51,6 +51,5 @@ public class GraphBuilder : MonoBehaviour
         lineRenderer.endColor = (closePrice > openPrice) ? Color.green : Color.red;
 
         candlestick.transform.SetParent(transform);
-
     }
 }
