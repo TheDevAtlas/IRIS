@@ -1,4 +1,4 @@
-# 🕹️ IRIS - A Stock, Crypto, Net Worth Prediction 🎯
+# 🖨️ IRIS - A Stock, Crypto, Net Worth Prediction 🪙
 
 **'Training A Neural Network With Tensorflow & Python'**
 
